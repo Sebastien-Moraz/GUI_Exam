@@ -1,0 +1,31 @@
+div, p, h1, body, html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Fruktur";
+}
+
+p {
+  font-family: "Dela Gothic One";
+}
+
+.top {
+  background-color: red;
+  width: 430px;
+  height: 382px;
+  flex-shrink: 0;
+}
+
+.chrono {
+  background-color: blue;
+  display: flex;
+  width: 430px;
+  padding: 9px 48px 11px 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
