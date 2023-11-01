@@ -30,10 +30,51 @@ html, body {
 }
 
 .navigation i {
+  margin: 0;
+  padding: 0;
   margin-right: 20px;
   margin-left: 20px;
   color: #FFFFFF;
   font-size: 2em;
+}
+
+.menu {
+  position: fixed;
+  background-color: black;
+  width: 60%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Dela Gothic One";
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: #D9AB42;
+}
+
+.menu a:active {
+  color: #D9AB42;
+}
+
+.menu a:visited {
+  color: #FFFFFF;
+}
+
+.menu i {
+  position: fixed;
+  left: 50%;
+  top: 30px;
 }
 
 .top {
@@ -239,6 +280,10 @@ html, body {
   font-size: 1.5em;
   -webkit-text-stroke: 1.2px black;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .author {
@@ -263,6 +308,57 @@ html, body {
   margin-left: 10px;
   margin-right: 10px;
   width: 10px;
+}
+
+.formulaire {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulaire form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulaire form input {
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10px;
+}
+
+.formulaire form input {
+  width: 80%;
+  height: 15px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  background-color: #0F4C81;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Dela Gothic One";
+  font-size: 0.9em;
+}
+
+.formulaire form input::placeholder {
+  color: #FFFFFF;
+  font-family: "Dela Gothic One";
+  font-size: 0.9em;
+}
+
+.formulaire form input::cue {
+  background-color: #0F4C81;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-const counters = document.querySelectorAll(".counter");
+document.addEventListener("DOMContentLoaded", function () {
+    const counters = document.querySelectorAll(".counter");
     counters.forEach(counter => {
         const addButton = counter.querySelector(".add");
         const removeButton = counter.querySelector(".remove");

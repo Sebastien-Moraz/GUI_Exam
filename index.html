@@ -10,13 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fruktur&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel=stylesheet type="text/css" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <script src="./js/menu.js"></script>
     <title>Jibber Jangle</title>
 </head>
 
 <body>
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/eminem.html">Eminem</a>
+        <a href="/panier.html">Panier</a>
+        <a href="/payement.html">Payement</a>
+        <i class="fa-solid fa-x fa-xl close" style="color: #ffffff;"></i>
+    </div>
     <div class="navigation">
-        <i class="fa-solid fa-bars fa-2xl"></i>
-        <i class="fa-solid fa-basket-shopping fa-2xl"></i>
+        <i class="fa-solid fa-bars fa-2xl open"></i>
+        <a href="/panier.html"><i class="fa-solid fa-basket-shopping fa-2xl"></i></a>
     </div>
     <div class="top">
         <h1>Jibber Jangle</h1>
@@ -51,7 +60,7 @@
     <div class="concerts">
         <p>Liste des concerts</p>
         <br>
-        <table>
+        <a href="/eminem.html"><table>
             <tr>
                 <td>16.05.2024</td>
                 <td>The Blue World</td>
@@ -76,11 +85,11 @@
                 <td>Ashton Porter</td>
                 <td>Lausanne</td>
             </tr>
-        </table>
+        </table></a>
 
     </div>
     <div class="footer">
-        <button class="button">Acheter des billets</button>
+        <a class="button">Acheter des billets</a>
     </div>
     <span class="author">© 2023 Jibber Jangle. By Sebastien Moraz</span>
 </body>
