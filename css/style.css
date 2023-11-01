@@ -11,21 +11,134 @@ p {
   font-family: "Dela Gothic One";
 }
 
+html, body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation i {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
 .top {
-  background-color: red;
-  width: 430px;
-  height: 382px;
-  flex-shrink: 0;
+  background-image: url("../img/defaultTop.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: #FFFFFF;
+  text-shadow: 10px 10px 10px black;
+}
+
+.top h1 {
+  font-size: 2.5em;
+  width: 100%;
+  text-align: center;
+}
+
+.top .fondu {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 10%;
+  bottom: 0;
 }
 
 .chrono {
   background-color: blue;
-  display: flex;
-  width: 430px;
-  padding: 9px 48px 11px 48px;
-  flex-direction: column;
+  width: 100%;
+  height: 120px;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.time {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.image-slider {
+  background-color: green;
+  width: 100%;
+  height: 250px;
+}
+
+.image-slider__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-slider__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bandrole {
+  background-color: yellow;
+  width: 100%;
+  height: 150px;
+}
+
+#banner1 {
+  background-color: #D9AB42;
+  color: #FFFFFF;
+  position: relative;
+}
+
+#banner2 {
+  background-color: #FFFFFF;
+  color: #D9AB42;
+  position: static;
+  width: 200%;
+}
+
+.video {
+  background-color: purple;
+  width: 100%;
+  height: 250px;
+}
+
+.concerts {
+  background-color: orange;
+  width: 100%;
+  height: 350px;
+}
+
+.footer {
+  background-color: pink;
+  width: 100%;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
